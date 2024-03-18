@@ -10,7 +10,16 @@ public class Literals {
           System.out.println(num2); //126 is output
 
           int num3 = 10_00_000_000;//we can add _ for readability
-        System.out.println(num3); // outputs is 1000000000
-    }
+          System.out.println(num3); // outputs is 1000000000
 
+          double num4 = 56;  // automatic typecasting
+          System.out.println(num4); //  output is 56.0
+
+          double num5 = 12e10;  // exponent
+          System.out.println(num5); //
+
+          char ch = 'a';
+          ch++;
+          System.out.println(ch); // output is b
+    }
 }
