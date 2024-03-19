@@ -9,5 +9,6 @@ public class Operators {
        // pre increment
         int b = ++num; // here num is first incremented to 7 then assigned to b
         System.out.println(b);
+
     }
 }
