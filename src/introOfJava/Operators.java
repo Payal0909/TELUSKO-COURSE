@@ -16,5 +16,15 @@ public class Operators {
          boolean result = num<num2;
         System.out.println(result);
 
+
+//        Logical operators
+//        AND and OR
+//        &&     ||
+        int x= 9, y=10;
+        int z =4, w=11;
+          boolean res = x<y && z<w;
+        System.out.println(res);
+
+
     }
 }
