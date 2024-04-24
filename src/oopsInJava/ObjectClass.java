@@ -24,5 +24,10 @@ public class ObjectClass {
 
 
 //        At 3:13 explaining the underlying logic to it
+
+//        Local variable - inside function -> part of stack of its own method
+//        instance variable - defined under class -> part of heap memory
+
+
     }
 }
