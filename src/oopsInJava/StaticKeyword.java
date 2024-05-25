@@ -1,9 +1,18 @@
 package oopsInJava;
 
 class Mobile{
+
     String name;
     String brand;
     static String type;
+
+    static
+    {
+        // this will be called first and before constructor
+        type="game";
+        System.out.println("in static block");
+    }
+
 }
 public class StaticKeyword {
     public static void main(String[] args) {
@@ -14,7 +23,7 @@ public class StaticKeyword {
         Mobile m1=new Mobile();
         m1.brand="M1";
         m1.name="oppo";
-        Mobile.type="Android";
+//        Mobile.type="Android";
 
         Mobile m2=new Mobile();
         m2.brand="M2";
@@ -23,9 +32,11 @@ public class StaticKeyword {
         System.out.println(m1.brand + ": " + Mobile.type);
         System.out.println(m2.brand + ": " + Mobile.type);
 
-        m2.type="Mac";
+//        m2.type="Mac";
         System.out.println(m1.brand + ": " + Mobile.type);
         System.out.println(m2.brand + ": " + Mobile.type);
+
+
 
     }
 
