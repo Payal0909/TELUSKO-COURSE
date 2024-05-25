@@ -13,6 +13,11 @@ class Mobile{
         System.out.println("in static block");
     }
 
+    public static void show()
+    {
+        System.out.println("static method");
+    }
+
 }
 public class StaticKeyword {
     public static void main(String[] args) throws ClassNotFoundException {
@@ -42,6 +47,8 @@ public class StaticKeyword {
 //        are the steps
 
         Class.forName("oopsInJava.Mobile");
+
+        // only static variable can be used inside static method and called using class name only
 
     }
 
