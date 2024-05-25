@@ -15,7 +15,7 @@ class Mobile{
 
 }
 public class StaticKeyword {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException {
         // Static variable of a class is shared by all its objects
         // Static variable can be called by its Method directly
         // there is aa different area in JVM where these static variables are created
@@ -37,6 +37,11 @@ public class StaticKeyword {
         System.out.println(m2.brand + ": " + Mobile.type);
 
 
+//        Static block is called before constructor as it gets called when the class loads which is done
+//        at the time of object creation but if wee want to load the class without object creation then below
+//        are the steps
+
+        Class.forName("oopsInJava.Mobile");
 
     }
 
