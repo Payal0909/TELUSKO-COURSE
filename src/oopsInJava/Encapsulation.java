@@ -7,7 +7,8 @@ class Human{
     public String getName() {
         return name;
     }
-
+// this keyword is used to differentiate between a local and instance variable
+// and refer to current object
     public void setName(String name) {
         this.name = name;
     }
