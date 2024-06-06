@@ -17,5 +17,11 @@ public class Inheritance {
     cakeBaker.bakeCake();
     cakeBaker.bake();
 
+//    Multiple inheritance will not work in java i.e. C is child of both A and B
+//    This is because in inheritance when child calls a method then it first
+//    searches in its class then its parent class then above hierarchy,
+//    so if a method is present in both A and B then which one it will call ?(CONFUSED)....
+//    hence it leads to ambiguity
+
     }
 }
