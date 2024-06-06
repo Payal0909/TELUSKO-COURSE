@@ -22,4 +22,11 @@ public class MethodOverriding {
         // child overrides parent's features
     }
 
+//    Packages - it a folder and it is imported to use the files inside
+//    By default , java.lang package is already there for "sout"
+//    utils package for input
+//    com.google.*    -> here * denotes files not folders
+
+
+
 }
