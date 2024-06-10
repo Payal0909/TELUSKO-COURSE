@@ -21,9 +21,10 @@ public class MethodOverloading {
 //       Method overloading - when one method is defined multiple times inside the class
 //       with different parameters in number or different types of parameters
 
-        Calculator calculator= new Calculator();
-        calculator.add(2,3);
-//        calculator.add(4,5,5);
+         Calc calc =new Calc();
+         calc.add(1,2);
+         int res=calc.add(3,4,5);
+        System.out.println(res);
 
     }
 
