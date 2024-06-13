@@ -1,6 +1,6 @@
 package oopsInJava;
 
-public class finalKeyword {
+public class FinalKeyword {
     public static void main(String[] args) {
 
      // final keyword is used with variable to make it constant ,that is the value can't be changed later
